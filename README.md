@@ -15,10 +15,7 @@ Assumptions
 4) Node_modules folder is not uploaded since it is not a good practice to upload node_modules
 5) You have installed npm on your computer
 
-HOW TO
-------
-------
-
+#HOW TO
 Open the app
 ------------
 
