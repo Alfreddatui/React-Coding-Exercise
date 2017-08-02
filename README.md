@@ -16,6 +16,7 @@ Assumptions
 5) You have installed npm on your computer
 
 #HOW TO
+-------
 Open the app
 ------------
 
@@ -29,20 +30,23 @@ Do the testing
 --------------
 
 Step 1 : After opening the app, you can type "npm test" in your directory that will execute the jest command
+
 Step 2 : The testing will be shown in the terminal, and if the app correct, all the testing will have a green tick
+
 Step 3(additional) : To see the coverage details, you may change your package.json file, at this part :
-	"scripts": {
-	    "start": "react-scripts start",
-	    "build": "react-scripts build",
-	    "test": "jest",
-	    "eject": "react-scripts eject"
-	  },
+		"scripts": {
+		    "start": "react-scripts start",
+		    "build": "react-scripts build",
+		    "test": "jest",
+		    "eject": "react-scripts eject"
+		  },
 and change the test part to :
-	"scripts": {
-	    "start": "react-scripts start",
-	    "build": "react-scripts build",
-	    "test": "jest --coverage",
-	    "eject": "react-scripts eject"
-	  },
+		"scripts": {
+		    "start": "react-scripts start",
+		    "build": "react-scripts build",
+		    "test": "jest --coverage",
+		    "eject": "react-scripts eject"
+		  },
 After changes the package.json, you may type "npm test" in your directory, and the coverage report will be shown in the terminal.
+
 Step 4(additional) : There will be a new directory called "coverage" and you may open coverage -> Icov-report -> index.html
