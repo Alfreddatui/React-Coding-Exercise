@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.submitbutton:hover {
+	cursor: pointer;
+}
+.vote:hover {
+	cursor: pointer;
+}
+
+.margin {
+	margin:2px;
+	padding-left: 7px;
+}
+
+.descrip {
+	margin-top: 10px;
+}
