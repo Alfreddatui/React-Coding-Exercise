@@ -14,6 +14,7 @@ Assumptions
 3) The topic did not contain any images (but can be developed to contain an image)
 4) Node_modules folder is not uploaded since it is not a good practice to upload node_modules
 5) You have installed npm on your computer
+6) For the online hosting platform, I use heroku. You may check project online with this link : https://carousell-project.herokuapp.com
 
 #HOW TO
 -------
@@ -54,7 +55,7 @@ and change the test part to :
 		    "test": "jest --coverage",
 		    "eject": "react-scripts eject"
 		  },
-		  
+
 After changes the package.json, you may type "npm test" in your directory, and the coverage report will be shown in the terminal.
 
 Step 4(additional) : There will be a new directory called "coverage" and you may open coverage -> Icov-report -> index.html
